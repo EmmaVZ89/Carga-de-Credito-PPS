@@ -1,0 +1,142 @@
+.contenedor-gral {
+  background: rgb(235, 231, 231);
+  background: radial-gradient(
+    circle,
+    rgba(235, 231, 231, 1) 7%,
+    rgba(30, 69, 237, 1) 100%
+  );
+  min-height: 100vh;
+  font-family: fantasy;
+  font-weight: lighter;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.contenedor-logo {
+  position: relative;
+  h1 {
+    color: #fff;
+    // font-size: 1.8rem;
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    margin: -25px 0 0 -25px;
+    z-index: 1000;
+  }
+}
+
+.contenedor-usuarios {
+  display: flex;
+  justify-content: space-around;
+}
+
+.usuarios-rapidos {
+  display: flex;
+  flex-direction: column;
+  p {
+    text-align: center;
+  }
+  img {
+    width: 5rem;
+    border-radius: 50%;
+    border: 2px dashed #000;
+  }
+}
+
+.seleccionado {
+  box-shadow: 0 0 24px #c9330e;
+}
+
+.usuarios-rapidos:hover {
+  cursor: pointer;
+}
+
+.usuarios-rapidos > img:active {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+
+.border-line {
+  border-right: 1px solid #eeeeee;
+}
+
+.line {
+  height: 3px;
+  width: 95%;
+  background-color: #e0e0e0;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 2px 4px #000;
+}
+
+.text-sm {
+  font-size: 14px !important;
+  text-align: center;
+  margin-top: 0;
+}
+
+::placeholder {
+  color: #9b9494;
+  opacity: 1;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  color: #9b9494;
+  font-weight: 300;
+}
+
+::-ms-input-placeholder {
+  color: #9b9494;
+  font-weight: 300;
+}
+
+input,
+textarea {
+  padding: 10px 12px 10px 12px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  width: 80%;
+  box-sizing: border-box;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(255, 255, 255);
+}
+
+input:focus,
+textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 2px solid #ffffff;
+  outline-width: 0;
+}
+
+button:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0;
+}
+
+.btn-ingresar {
+  background-color: #c9330e;
+  width: 150px;
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+  margin: 1rem auto 1rem auto;
+  box-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.btn-ingresar:hover {
+  background-color: #000;
+  cursor: pointer;
+}
