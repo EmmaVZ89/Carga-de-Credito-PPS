@@ -38,7 +38,7 @@
  <hr>
  <h2 align="center">SPLASH SCREEN</h2>
  <p align="center">
-   <img width=200 src="https://github.com/EmmaVZ89/Alarma-de-Robo-PPS/blob/main/readme/1-splash.gif">
+   <img width=200 src="https://github.com/EmmaVZ89/Carga-de-Credito-PPS/blob/main/readme/1-splash.gif">
  </p>
  <hr>
  
@@ -46,23 +46,30 @@
  <h2 align="center">INICIO RÁPIDO</h2>
  <p align="center">Se pueden seleccionar 3 diferentes tipo de usuarios para probar la aplicación</p>
  <p align="center">
-   <img width=200 src="https://github.com/EmmaVZ89/Alarma-de-Robo-PPS/blob/main/readme/2-inicio.gif">
+   <img width=200 src="https://github.com/EmmaVZ89/Carga-de-Credito-PPS/blob/main/readme/2-inicio.gif">
  </p>
  <hr>
  
  <hr>
- <h2 align="center">ACTIVAR ALARMA</h2>
- <p align="center">Presionando el botón se activará la alarma y el dispositivo no podrá ser movido sin que esta empiece a sonar.</p>
+ <h2 align="center">CARGA DE CRÉDITO</h2>
+ <p align="center">Presionando el botón <b>ESCANEAR</b> se activará el scaner y se podrá leer un código <b>QR</b> para la carga de crédito.</p>
  <p align="center">
-   <img width=200 src="https://github.com/EmmaVZ89/Alarma-de-Robo-PPS/blob/main/readme/3-activar.gif">
+   <img width=200 src="https://github.com/EmmaVZ89/Carga-de-Credito-PPS/blob/main/readme/3-cargar.gif">
  </p>
  <hr>
  
  <hr>
- <h2 align="center">DESACTIVAR ALARMA</h2>
- <p align="center">La alarma podrá ser desactivada si y solo si se ingresa la contraseña del usuario actualmente logueado. De los contrario seguira sonando, vibrando y encendiendo la linterna</p>
+ <h2 align="center">BORRAR CRÉDITO</h2>
+ <p align="center">A parte de la carga de crédito también es posible la eliminación del mismo, una vez hecho esto no es posible recuperarlo.</p>
  <p align="center">
-   <img width=200 src="https://github.com/EmmaVZ89/Alarma-de-Robo-PPS/blob/main/readme/4-desactivar.gif">
+   <img width=200 src="https://github.com/EmmaVZ89/Carga-de-Credito-PPS/blob/main/readme/4-borrar.gif">
  </p>
  <hr>
+ 
+ <hr>
+ <h2 align="center">VISTAS</h2>
+ <img align="left" width=200 src="https://github.com/EmmaVZ89/Carga-de-Credito-PPS/blob/main/readme/5%20login.png">
+ <img align="left" width=200 src="https://github.com/EmmaVZ89/Carga-de-Credito-PPS/blob/main/readme/6%20home.png">
+ <img align="left" width=200 src="https://github.com/EmmaVZ89/Carga-de-Credito-PPS/blob/main/readme/7%20scaner.png">
+ <img align="left" width=200 src="https://github.com/EmmaVZ89/Carga-de-Credito-PPS/blob/main/readme/8%20confirmacion.png">
  
